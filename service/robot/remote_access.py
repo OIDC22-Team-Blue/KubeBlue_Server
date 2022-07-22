@@ -3,7 +3,6 @@ from flask import Blueprint
 
 remoteAccess = Blueprint("remote access", __name__, url_prefix="/remoteAccess")
 
-
 @remoteAccess.route('/runTestcase')
 def run_testcase():
     try:
