@@ -9,7 +9,6 @@ from model import User
 
 app = Flask(__name__)
 CORS(app,supports_credentials=True)
-#MongoDB 연결
 DB_URI = "mongodb+srv://root:oidc001@oidc.n90pv.mongodb.net/?retryWrites=true&w=majority"
 connect(host=DB_URI)
 
